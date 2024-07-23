@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: Arial, sans-serif; /
+}
+
+.navbar {
+    background-color: #0e122e;
+    font-size: 1.5rem;
+    height: 60px;
+    border: 2px solid black;
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 5px 5px 5px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.image {
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    margin-left: 10px;
+    margin-top: 15px;
+    border: 5px solid black;
+    border-radius: 50%;
+    transition: border-color 0.3s; 
+}
+
+.image:hover {
+    border-color: crimson;
+    cursor: pointer;
+}
+
+.rock {
+    background-image: url("rock.png");
+}
+
+.paper {
+    background-image: url("paper.png");
+}
+
+.scissors {
+    background-image: url("scissor.png"); 
+}
+
+.scores {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.yourscr, .comscr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100px;
+    width: 100px;
+    margin-left: 10px;
+    background-color: #f4f4f4; 
+    border: 2px solid #ddd; 
+    border-radius: 10px; 
+}
+
+.yourscr h1, .comscr h1 {
+    margin: 0;
+    font-size: 2rem; 
+}
+
+.result {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#result {
+    font-size: 2rem;
+    color: white;
+    background-color: #081b32;
+    display: inline-block; 
+    border-radius: 5px;
+    padding: 10px;
+    width: auto;
+}
+#reset{
+    font-size: 2rem;
+    color: white;
+    background-color: #081b32;
+    display: inline-block;  
+    border-radius: 5px;
+    padding: 10px;
+    width: auto; 
+    
+}
+#reset:hover{
+    cursor: pointer;
+}

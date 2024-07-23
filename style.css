@@ -1,0 +1,28 @@
+/* Styling for <h1> elements */
+h1 {
+    color: blue;
+    background-color: yellow;
+}
+
+/* Styling for the <body> element */
+body {
+    background-color: pink;
+}
+
+/* Styling for <button> elements */
+button {
+    background-color: blue;
+    color: white;
+}
+.para{
+    background-color: red;
+    color: white;
+    border: 2px solid black;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+}
+.para2{
+    background-color: white;
+    color :black;
+}
